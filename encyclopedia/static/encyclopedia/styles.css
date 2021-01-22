@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: white;}
+
+code {
+    white-space: pre;}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;}
+
+textarea {
+    margin-top: 24px;
+    padding-top: 8px;
+    height: 64vh;
+    width: 64%;
+    resize: vertical;}
+
+.main {
+    padding-top: 0px;
+    padding-left: 32px;}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;}
+
+.sidebar h2 {
+    margin-top: 5px;
+    font-weight: bold;}
+
+.editar {height: 30px;
+         min-width: 88px;
+         float:left;
+         margin-top: 8px;
+         padding-top: 2px;
+         box-shadow: none;
+         background-color: #4d90fe;
+         border: 1px solid #3079ed;
+         border-radius: 4px;
+         font-family: arial,sans-serif;
+         font-size: 16px;
+         font-weight:normal;
+         text-align: center;
+         color: #fff;}
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: none;
+         cursor:pointer;
+        color:cyan}
+         
+#createwiki {display:flex;
+             flex-direction: column;}
+
+
+#id_title {width:max-content}
+
+label[for=id_title] {margin-top: 16px;}
+
+label[for=id_description] {margin-top: 16px;}
+
+#mensaje {width: max-content;
+          padding: 24px;
+          margin: 32px;}
